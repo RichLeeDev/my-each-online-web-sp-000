@@ -5,3 +5,7 @@ def my_each(array)
     i += 1
   end
 end
+
+my_each(tas) do |ta|
+  puts ta
+end
