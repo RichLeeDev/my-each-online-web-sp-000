@@ -13,6 +13,7 @@ end
 my_each(tas) do |ta|
   new_array = []
   new_array << ta
+  return new_array
 end
   
   
