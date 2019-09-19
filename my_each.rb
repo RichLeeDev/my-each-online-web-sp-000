@@ -11,3 +11,5 @@ my_each(words) do |word|
 end
 my_each(tas) do |ta|
   
+  
+  
