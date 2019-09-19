@@ -6,6 +6,6 @@ def my_each(array)
   end
 end
 
-my_each(array) do |ta|
+my_each(eords) do |ta|
   puts ta
 end
