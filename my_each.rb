@@ -6,6 +6,7 @@ def my_each(array)
   end
 end
 words = ['hi', 'hello', 'bye', 'goodbye']
+tas = ['arel', 'jon', 'logan', 'spencer']
 my_each(words) do |word|
   word
 end
