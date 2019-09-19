@@ -11,6 +11,7 @@ my_each(words) do |word|
   word
 end
 my_each(tas) do |ta|
+  new_array << ta
 end
   
   
