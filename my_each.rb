@@ -4,6 +4,7 @@ def my_each(array)
     yield array[i]
     i += 1
   end
+  array
 end
 words = ['hi', 'hello', 'bye', 'goodbye']
 tas = ['arel', 'jon', 'logan', 'spencer']
@@ -11,7 +12,7 @@ my_each(words) do |word|
   word
 end
 my_each(tas) do |ta|
-  
+  ta
 end
   
   
