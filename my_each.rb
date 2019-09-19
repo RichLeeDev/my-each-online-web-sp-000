@@ -9,3 +9,5 @@ words = ['hi', 'hello', 'bye', 'goodbye']
 my_each(words) do |word|
   word
 end
+my_each(tas) do |ta|
+  
